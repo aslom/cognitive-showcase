@@ -30,7 +30,7 @@
 		</div>
 		<div style="padding-bottom: 0px;" class="row header">
 		<div class="avatar img-container col-lg-1 col-xs-1">
-			<img src="images/app.png">
+			<img src="pi/images/app.png">
 		</div>
 		<div class="col-lg-6 col-xs-6">
 			<h2>Personality Insights Java Starter Application</h2>
@@ -78,7 +78,7 @@
 	<div class="row">
 		<div style="display:none;" class="form-group row loading text-center loading">
 			<h2>&nbsp;</h2>
-			<img src="images/watson.gif">
+			<img src="pi/images/watson.gif">
 		</div>
 		<div style="display: none;" class="form-group row error">
 			<h2>&nbsp;</h2>
