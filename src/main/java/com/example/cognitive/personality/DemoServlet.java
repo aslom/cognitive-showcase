@@ -51,9 +51,9 @@ public class DemoServlet extends HttpServlet {
 	private String mobydickcp1;
 	// If running locally complete the variables below
 	// with the information in VCAP_SERVICES
-	private String baseURL = "<url>";
-	private String username = "<username>";
-	private String password = "<password>";
+	private String baseURL = "https://gateway.watsonplatform.net/personality-insights/api";
+	private String username = "2649831b-3b65-467c-9bd5-1300f0775cdc";
+	private String password = "ESpPTxWTDi4t";
 
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp)

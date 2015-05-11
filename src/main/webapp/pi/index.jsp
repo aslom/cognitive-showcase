@@ -10,8 +10,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-<link rel="stylesheet" href="css/watson-bootstrap-dark.css">
-<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="pi/css/watson-bootstrap-dark.css">
+<link rel="stylesheet" href="pi/css/style.css">
 </head>
 <body>
 <div class="container">
@@ -140,10 +140,10 @@
 	</div>
 </div>
 </div>
-	<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
-	<script type="text/javascript" src="js/d3.v2.min.js"></script>
-	<script type="text/javascript" src="js/demo.js"></script>
-	<script type="text/javascript" src="js/personality.js"></script>
-	<script type="text/javascript" src="js/textsummary.js"></script>
+	<script type="text/javascript" src="pi/js/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="pi/js/d3.v2.min.js"></script>
+	<script type="text/javascript" src="pi/js/demo.js"></script>
+	<script type="text/javascript" src="pi/js/personality.js"></script>
+	<script type="text/javascript" src="pi/js/textsummary.js"></script>
 </body>
 </html>

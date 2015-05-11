@@ -20,7 +20,7 @@ $(document).ready(function() {
 
   var widgetId = 'vizcontainer', // Must match the ID in index.jade
     widgetWidth = 700, widgetHeight = 700, // Default width and height
-    personImageUrl = 'images/app.png'; // Can be blank
+    personImageUrl = 'pi/images/app.png'; // Can be blank
 
   // Jquery variables
   var $content = $('.content'),
@@ -68,7 +68,7 @@ $(document).ready(function() {
       data: {
         text: $content.val()
       },
-      url: 'demo',
+      url: 'pidemo',
       dataType: 'json',
       success: function(response) {
         $loading.hide();
