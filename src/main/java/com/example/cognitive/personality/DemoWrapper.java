@@ -12,7 +12,6 @@ public class DemoWrapper {
 	public static void main(String[] args) {
 		PersonalityInsights service = new PersonalityInsights();
 		service.setUsernameAndPassword("2649831b-3b65-467c-9bd5-1300f0775cdc", "ESpPTxWTDi4t");
-
 		// Demo content from Moby Dick by Hermann Melville (Chapter 1)
 		String text = "Call me Ishmael. Some years ago-never mind how long precisely-having "
 		    + "little or no money in my purse, and nothing particular to interest me on shore, "

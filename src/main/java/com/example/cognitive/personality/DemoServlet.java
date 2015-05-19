@@ -15,12 +15,10 @@
 
 package com.example.cognitive.personality;
 
+import java.io.ByteArrayOutputStream;
 import java.io.IOException;
+import java.io.InputStream;
 import java.net.URI;
-import java.nio.charset.StandardCharsets;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -168,13 +166,36 @@ public class DemoServlet extends HttpServlet {
 	private String getDefaultText() {
 		if (mobydickcp1 == null) {
 			byte[] encoded;
+//			try {
+//				Path path = Paths.get(this.getClass().getResource("mobydick.txt").toURI());
+//				encoded = Files.readAllBytes(path);
+//				mobydickcp1 =  new String(encoded, StandardCharsets.UTF_8);
+//				System.out.println(mobydickcp1);
+//			} catch (Exception e) {
+//				logger.log(Level.SEVERE, "mobidick.txt file not found: " + e.getMessage(), e);
+//			}
 			try {
-				Path path = Paths.get(this.getClass().getResource("mobydick.txt").toURI());
-				encoded = Files.readAllBytes(path);
-				mobydickcp1 =  new String(encoded, StandardCharsets.UTF_8);
+				//URI uri = this.getClass().getResource("mobydick.txt").toURI();
+				//String fileName = uri.getPath();
+				//System.out.println(getClass()+" "+fileName);
+				InputStream is = getServletContext().getResourceAsStream("/pi/mobydick.txt");
+				System.out.println(getClass()+" is="+is);
+				ByteArrayOutputStream buffer = new ByteArrayOutputStream();
+				int nRead;
+				byte[] data = new byte[16384];
+				while ((nRead = is.read(data, 0, data.length)) != -1) {
+				  buffer.write(data, 0, nRead);
+				}
+				buffer.flush();
+				encoded =  buffer.toByteArray();
+//				RandomAccessFile f = new RandomAccessFile(fileName, "r");
+//				encoded = new byte[(int)f.length()];
+//				f.read(encoded);
+//				f.close();
+			    mobydickcp1 =  new String(encoded, "UTF8");
 				System.out.println(mobydickcp1);
 			} catch (Exception e) {
-				logger.log(Level.SEVERE, "mobidick.txt file not found: " + e.getMessage(), e);
+				logger.log(Level.SEVERE, "mobidick.txt could not be read: " + e.getMessage(), e);
 			}
 		}
 		return mobydickcp1;
