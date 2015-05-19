@@ -1,8 +1,7 @@
 applications:
 - services:
-  - AWPI-personality_insights
-  - AWPI-MonitoringAndAnalytics
-  name: cognitive-showcase
+  - Personality Insights-uf
+  name: personality_insights_stopera
   disk_quota: 512M
   instances: 1
   path: build/libs/cognitive-showcase-0.0.1.war

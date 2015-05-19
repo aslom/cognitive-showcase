@@ -42,12 +42,12 @@ import org.json.JSONObject;
 
 
 @MultipartConfig
-public class DemoServlet extends HttpServlet 
+public class AlchemyLanguageServlet extends HttpServlet 
 {
-	private static Logger logger = Logger.getLogger(DemoServlet.class.getName());
+	private static Logger logger = Logger.getLogger(AlchemyLanguageServlet.class.getName());
 	private static final long serialVersionUID = 1L;
 
-	private String serviceName = "personality_insights";
+	private String serviceName = "alchemy_language";
 	private String mobydickcp1;
 	// If running locally complete the variables below
 	// with the information in VCAP_SERVICES
@@ -59,8 +59,7 @@ public class DemoServlet extends HttpServlet
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp)
 			throws ServletException, IOException {
 
-		req.setAttribute("content", getDefaultText());
-		req.getRequestDispatcher("/pi/index.jsp").forward(req, resp);
+		
 	}
 
 	/**

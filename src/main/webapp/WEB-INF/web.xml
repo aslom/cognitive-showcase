@@ -17,4 +17,22 @@
 		<servlet-name>PI Application Servlet</servlet-name>
 		<url-pattern>/pidemo</url-pattern>
 	</servlet-mapping>
+	<servlet>
+		<servlet-name>QA Servlet</servlet-name>
+		<servlet-class>com.example.cognitive.qa.QAServlet</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>QA Servlet</servlet-name>
+		<url-pattern>/QAServlet</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>PI Servlet</servlet-name>
+		<servlet-class>com.example.cognitive.personality.PIServlet</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>PI Servlet</servlet-name>
+		<url-pattern>/PIServlet</url-pattern>
+	</servlet-mapping>
 </web-app>

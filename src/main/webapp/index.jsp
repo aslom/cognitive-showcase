@@ -18,10 +18,13 @@
 <h1>Cognitive Showcase</h1>
 <p>Choose showcase:</p>
 <p>
-  <a href="pidemo">Personality Insights</a>
+  <a href="pi.jsp">Personality Insights</a>
 </p>
 <p>
-  <a href="OTHER/index.jsp">WATSON TBW</a>
+  <a href="answer.jsp">Question and Answer</a>
+</p>
+<p>
+  <a href="alchemy1.jsp">Alchemy Language</a>
 </p>
 </body>
 </html>
