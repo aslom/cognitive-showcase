@@ -40,8 +40,8 @@ import org.json.JSONObject;
 
 
 @MultipartConfig
-public class DemoServlet extends HttpServlet {
-
+public class DemoServlet extends HttpServlet 
+{
 	private static Logger logger = Logger.getLogger(DemoServlet.class.getName());
 	private static final long serialVersionUID = 1L;
 
