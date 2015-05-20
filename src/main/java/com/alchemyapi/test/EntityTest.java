@@ -19,7 +19,7 @@ class EntityTest {
                ParserConfigurationException, XPathExpressionException
     {
         // Create an AlchemyAPI object.
-        AlchemyAPI alchemyObj = AlchemyAPI.GetInstanceFromFile("api_key.txt");
+        AlchemyAPI alchemyObj = AlchemyAPI.GetInstanceFromFile("YOUR_API_KEY.txt");
 
         // Extract a ranked list of named entities for a web URL.
         Document doc = alchemyObj.URLGetRankedNamedEntities("http://www.techcrunch.com/");
@@ -32,7 +32,7 @@ class EntityTest {
         System.out.println(getStringFromDocument(doc));
 
         // Load a HTML document to analyze.
-        String htmlDoc = getFileContents("data/example.html");
+        String htmlDoc = getFileContents("testdir/data/example.html");
 
         // Extract a ranked list of named entities from a HTML document.
         doc = alchemyObj.HTMLGetRankedNamedEntities(htmlDoc, "http://www.test.com/");

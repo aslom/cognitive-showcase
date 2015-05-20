@@ -18,11 +18,18 @@ body {
  
     <div align="center" style="margin-top: 50px;">
  
+  Welcome to my Alchemy Language Page! <br>
+ 
         <form action="AlchemyAPI">
-            Welcome to my Alchemy Language Page! <br>
-            Enter the text or link to be analyzed: <input type="text" name="words" size="20px"> <br><br>
+            Enter the link to be analyzed: <input type="text" name="words" value="www.cnn.com" size="20px"> <br><br>
         <input type="submit" value="submit">
         </form>
+ 
+		  <form action="AlchemyAPI2">
+		     Enter the text to be analyzed: <input type="text" name="words2" size="20px"> <br><br>
+		 	<input type="submit" value="submit">
+		        </form>
+		 
  
     </div>
  

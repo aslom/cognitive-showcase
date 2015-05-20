@@ -26,6 +26,9 @@
 <p>
   <a href="alchemy1.jsp">Alchemy Language</a>
 </p>
+<p>
+  <a href="test.jsp">Test</a>
+</p>
 </body>
 </html>
 

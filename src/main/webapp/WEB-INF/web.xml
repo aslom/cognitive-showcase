@@ -35,4 +35,22 @@
 		<servlet-name>PI Servlet</servlet-name>
 		<url-pattern>/PIServlet</url-pattern>
 	</servlet-mapping>
+	<servlet>
+		<servlet-name>Alchemy API</servlet-name>
+		<servlet-class>com.example.cognitive.alchemy.AlchemyLanguageServlet</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Alchemy API</servlet-name>
+		<url-pattern>/AlchemyAPI</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>Alchemy API 2</servlet-name>
+		<servlet-class>com.example.cognitive.alchemy.AlchemyLanguageServlet2</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Alchemy API 2</servlet-name>
+		<url-pattern>/AlchemyAPI2</url-pattern>
+	</servlet-mapping>
 </web-app>

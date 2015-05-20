@@ -25,7 +25,7 @@ import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
 
-public class AlchemyLanguageServlet extends HttpServlet 
+public class AlchemyLanguageServlet2 extends HttpServlet 
 {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException 
     {
@@ -35,24 +35,26 @@ public class AlchemyLanguageServlet extends HttpServlet
         // Extract a ranked list of named entities for a web URL.
         Document doc;
 		try {
-			String words = request.getParameter("words");
-			doc = alchemyObj.URLGetRankedNamedEntities(words);
-			PrintWriter out = response.getWriter();
-			out.println("<!DOCTYPE html PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\" +" +
-                    "http://www.w3.org/TR/html4/loose.dtd\">\n" +
-                "<html> \n" +
-                  "<head> \n" +
-                    "<meta http-equiv=\"Content-Type\" content=\"text/html; " +
-                      "charset=ISO-8859-1\"> \n" +
-                    "<title> Crunchify.com JSP Servlet Example  </title> \n" +
-                  "</head> \n" +
-                  "<body> <div align='center'> \n" +
-                    "<style= \"font-size=\"12px\" color='black'\"" + "\">" +
-                    	getStringFromDocument(doc) + 
-                  "</font></body> \n" +
-                "</html>" );
 
 	        // Extract a ranked list of named entities from a text string.
+			String words2 = request.getParameter("words2");
+	        doc = alchemyObj.TextGetRankedNamedEntities(words2);
+	        PrintWriter out2 = response.getWriter();
+	        out2.println (
+	                  "<!DOCTYPE html PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\" +" +
+	                      "http://www.w3.org/TR/html4/loose.dtd\">\n" +
+	                  "<html> \n" +
+	                    "<head> \n" +
+	                      "<meta http-equiv=\"Content-Type\" content=\"text/html; " +
+	                        "charset=ISO-8859-1\"> \n" +
+	                      "<title> Crunchify.com JSP Servlet Example  </title> \n" +
+	                    "</head> \n" +
+	                    "<body> <div align='center'> \n" +
+	                      "<style= \"font-size=\"12px\" color='black'\"" + "\">" +
+	                      	getStringFromDocument(doc) + 
+	                    "</font></body> \n" +
+	                  "</html>" 
+	                ); 
 	        
 		} catch (XPathExpressionException e) {
 			// TODO Auto-generated catch block
