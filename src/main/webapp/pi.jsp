@@ -20,11 +20,15 @@ body {
  
         <form action="PIServlet">
             Welcome to my Personality Insights Page! <br> 
-            Enter your Statement: <input type="text" name="statement" size="20px"> <br><br>
+            Enter your Statement: <input type="text" name="statement" size="80px"> <br><br>
         <input type="submit" value="submit">
         </form>
+        
+        <div>
+			<p>Return to the homepage. <a href="index.jsp">Click here</a>.</p>
+ 		</div>
  
     </div>
- 
+   
 </body>
 </html>

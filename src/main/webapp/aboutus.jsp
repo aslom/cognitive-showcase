@@ -21,8 +21,8 @@
         		<a href="index.jsp" class="brand">Cognitive Showcase</a>
         		<div class="nav-collapse collapse">
            			 <ul class="nav pull-right">
-                	<li class="active"><a href="index.jsp">Home</a></li>
-                	<li><a href="aboutus.jsp">About Us</a></li>
+                	<li><a href="index.jsp">Home</a></li>
+                	<li class="active"><a href="aboutus.jsp">About Us</a></li>
                 	<li><a href="contactus.jsp">Contact Us</a></li>
             	</ul>
             	</div>
@@ -32,32 +32,26 @@
 		
 		<div class="hero-unit">
     		<div class="container">
-       			<h1>Cognitive Showcase</h1>
-        		<p class="lead">Get ready for the different cognitive showcases we have available for you: Personality Insights, Question and Answer, and Alchemy</p>
+       			<h1>About Us</h1>
+        		<p class="lead">Welcome. I'm Andrew Stopera and I have put together this Cognitive Showcase in order to help those who are 
+        		just learning how to create a web portal using Eclipse and Bluemix. This web page contains three different Watson services: 
+        		Personality Insights, Question and Answer, and Alchemy API. You can explore the different services using my webpage by
+        		clicking the "Get Started" button below. If you follow both my blog and my video which also will both be posted below, you too 
+        		can get these services to work and have it on a snazzy web page like this. Thanks for coming and good luck in creating your
+        		own webpage if you choose to do so.</p>
         		<p><a href="index2.jsp" class="btn btn-success btn-large">Get Started</a></p>
-    		</div>
+        		<p class="lead"> Links to check out:</p>
+        		<div class="row">
+        			<div class="span0">
+        				<p><a href="http://andrew-stopera-ibm-internship.blogspot.com" class="btn btn-primary">My Blog</a>
+        			</div>
+        			<div class="span2">
+        				<p><a href="http://www.youtube.com" class="btn btn-primary">My Video</a>
+        			</div>
+        		</div>	
+        	</div>
 		</div>
-		
-		<div class="row">
-        	<div class="span4">
-        	<img src="systemu.png" alt="PIPic" height="75" width="75">
-            	<h4>Personality Insights</h4>
-	        		<p>Enter text to have its personality analyzed. <a href="pi.jsp">Click here</a>.</p>
-	        		<a href="pi.jsp" class="btn btn-primary"> Personality Insights</a>
-	    	</div>
-	    	<div class="span4">
-	    	<img src="qa.png" alt="QAPic" height="75" width="75">
-	       		<h4>Question and Answer</h4>
-	        	<p>Enter a health question and have it answered. <a href="answer.jsp">Click here</a>.</p>
-	       		<a href="answer.jsp" class="btn btn-primary"> Question and Answer</a>
-	   	 	</div>
-	    	<div class="span4">
-	    	<img src="Alchemy_Chevron_jpeg.jpg" alt="AlchemyPic" height="75" width="68">
-	        	<h4>Alchemy</h4>
-	        	<p>Learn about the possibilities Alchemy offers. <a href="alchemy1.jsp">Click here</a>.</p>
-	       		<a href="alchemy1.jsp" class="btn btn-primary"> Alchemy</a>
-       		 </div>
-
+    
 		<div class="container">
 		    <div class="row-fluid">
 		        <div class="span4 text-left">
@@ -76,6 +70,6 @@
 		    </div>
 		</div>
 		
-	</body>
-</html>
-
+		
+		
+		
