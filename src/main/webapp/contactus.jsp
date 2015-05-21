@@ -21,9 +21,9 @@
         		<a href="index.jsp" class="brand">Cognitive Showcase</a>
         		<div class="nav-collapse collapse">
            			 <ul class="nav pull-right">
-                	<li class="active"><a href="index.jsp">Home</a></li>
+                	<li><a href="index.jsp">Home</a></li>
                 	<li><a href="aboutus.jsp">About Us</a></li>
-                	<li><a href="contactus.jsp">Contact Us</a></li>
+                	<li class="active"><a href="contactus.jsp">Contact Us</a></li>
             	</ul>
             	</div>
        		 </div>
@@ -32,32 +32,11 @@
 		
 		<div class="hero-unit">
     		<div class="container">
-       			<h1>Cognitive Showcase</h1>
-        		<p class="lead">Get ready for the different cognitive showcases we have available for you: Personality Insights, Question and Answer, and Alchemy</p>
-        		<p><a href="index2.jsp" class="btn btn-success btn-large">Get Started</a></p>
-    		</div>
+       			<h1>Questions?</h1>
+        		<p class="lead"> Contact me at astopera@students.hackleyschool.org.</p>
+        	</div>
 		</div>
 		
-		<div class="row">
-        	<div class="span4">
-        	<img src="systemu.png" alt="PIPic" height="75" width="75">
-            	<h4>Personality Insights</h4>
-	        		<p>Enter text to have its personality analyzed. <a href="pi.jsp">Click here</a>.</p>
-	        		<a href="pi.jsp" class="btn btn-primary"> Personality Insights</a>
-	    	</div>
-	    	<div class="span4">
-	    	<img src="qa.png" alt="QAPic" height="75" width="75">
-	       		<h4>Question and Answer</h4>
-	        	<p>Enter a health question and have it answered. <a href="answer.jsp">Click here</a>.</p>
-	       		<a href="answer.jsp" class="btn btn-primary"> Question and Answer</a>
-	   	 	</div>
-	    	<div class="span4">
-	    	<img src="Alchemy_Chevron_jpeg.jpg" alt="AlchemyPic" height="75" width="68">
-	        	<h4>Alchemy</h4>
-	        	<p>Learn about the possibilities Alchemy offers. <a href="alchemy1.jsp">Click here</a>.</p>
-	       		<a href="alchemy1.jsp" class="btn btn-primary"> Alchemy</a>
-       		 </div>
-
 		<div class="container">
 		    <div class="row-fluid">
 		        <div class="span4 text-left">
@@ -75,7 +54,3 @@
 		        </div>
 		    </div>
 		</div>
-		
-	</body>
-</html>
-

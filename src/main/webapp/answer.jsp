@@ -20,9 +20,13 @@ body {
  
         <form action="QAServlet">
             Welcome to my Question and Answer Page! <br>
-            Enter your Health Question: <input type="text" name="question" size="20px"> <br><br>
+            Enter your Health Question: <input type="text" name="question" size="80px"> <br><br>
         <input type="submit" value="submit">
         </form>
+ 
+		 <div>
+			<p>Return to the homepage. <a href="index.jsp">Click here</a>.</p>
+ 		</div>
  
     </div>
  
