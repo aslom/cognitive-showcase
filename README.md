@@ -1,9 +1,7 @@
 ## Helpful Links
 
 
-```
-Go to andrew-stopera-ibm-internship.blogspot.com to find full directions on how to use this source code to create your very own web portal. This project was done by a high school students over 2 weeks at IBM for an internship project. We hope that those who are high school students with an interest in coding will be able to fulfill the project following the steps in the blog above. 
-```
+Go to http://andrew-stopera-ibm-internship.blogspot.com to find full directions on how to use this source code to create your very own web portal. This project was done by a high school students over 2 weeks at IBM for an internship project. We hope that those who are high school students with an interest in coding will be able to fulfill the project following the steps in the blog above. 
 
 
 ## Build
