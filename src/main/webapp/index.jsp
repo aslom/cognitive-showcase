@@ -7,6 +7,21 @@
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 		<link rel="stylesheet" href="css/bootstrap.css">
 		<link rel="stylesheet" href="css/bootstrap-responsive.css">
+		
+		<style type="text/css">
+            .wrapper {
+  width:960px;
+  margin:0 auto;
+  border:1px #ccc solid;
+}
+
+.span4:not(:first-child),.span4:not(:last-child) {
+  padding-right:7px;
+  padding-left:7px;
+}
+
+.content {background-color:#efefef;}
+        </style>
 	</head>
 	<body>
 	
